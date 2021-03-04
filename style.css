@@ -4,3 +4,27 @@
     box-sizing: border-box;
 }
 
+.general-comtainer{
+    width: 100%;
+}
+
+.max-container{
+    width: 1024px;
+}
+
+.nav-container{
+    width: 90%;
+}
+
+.up-nav{
+    width: 80%;
+}
+
+
+
+/* utility tag */
+
+.border{
+    border: 1px solid black;
+}
+
