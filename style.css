@@ -4,22 +4,83 @@
     box-sizing: border-box;
 }
 
-.general-comtainer{
-    width: 100%;
-}
 
 .max-container{
     width: 1024px;
+    margin: auto;
+   
 }
 
 .nav-container{
-    width: 90%;
+    margin: auto;
+    width: 100%;
 }
+
+.nav-container ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-left,.nav-right{
+    display: inline-block;
+    width: 50%;
+}
+
+.up-nav .nav-left,.clearfix-left >*{
+    float: left;
+    
+}
+
+.up-nav .nav-right,.clearfix-right >*{
+    float: right;
+    
+}
+
+.clearfix-left::after,
+.clearfix-right::after,
+.up-nav::after,
+.nav-left::after,
+.nav-right::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
 
 .up-nav{
-    width: 80%;
+    background-color:  #F4F9FD;
 }
 
+.nav-left .clearfix-left >* ,.nav-right .clearfix-right >*{
+    background-color: #F4F9FD;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+} 
+
+.nav-left .clearfix-left .symbol-1{
+    padding: 13px 10px 0px 0;
+}
+
+.nav-left .clearfix-left .symbol-2{
+    padding-left:0px;
+}
+
+.get-hub.button{
+    padding: 7px;
+    margin: 6px;
+    border-radius: 5px;
+    background-color: #FE775A;
+}
+
+.log-in.button{
+    padding: 7px;
+    margin: 6px;
+    border-radius: 5px;
+   border: 1px solid #FE775A;
+}
 
 
 /* utility tag */
