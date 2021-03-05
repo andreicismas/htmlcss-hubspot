@@ -5,15 +5,21 @@
 }
 
 
-.max-container{
-    width: 1024px;
+body{
+    width: 1080px;
     margin: auto;
-   
+}
+
+.max-container{
+    width:100%;
+    margin: auto;
+    background-color:  #F4F9FD;
+
 }
 
 .nav-container{
     margin: auto;
-    width: 100%;
+    width: 80%;
 }
 
 .nav-container ul{
@@ -21,6 +27,7 @@
 }
 
 a{
+    color: #32495B;
     text-decoration: none;
 }
 
@@ -36,6 +43,7 @@ a{
 
 .up-nav .nav-right,.clearfix-right >*{
     float: right;
+    z-index: 1;
     
 }
 
@@ -58,6 +66,7 @@ a{
     padding: 15px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 12px;
+   
 } 
 
 .nav-left .clearfix-left .symbol-1{
@@ -69,18 +78,65 @@ a{
 }
 
 .get-hub.button{
-    padding: 7px;
+    padding: 6px;
     margin: 6px;
     border-radius: 5px;
     background-color: #FE775A;
 }
 
 .log-in.button{
-    padding: 7px;
+    padding: 6px;
     margin: 6px;
     border-radius: 5px;
    border: 1px solid #FE775A;
 }
+
+.search-sym.symbol-1{
+    padding: 14px;
+}
+
+/* end up-nav */
+
+/* down-nav */
+
+.clearfix-left .img-nav-bar{
+    padding: 7px;
+    padding-left: 0%;
+    background-color: #FFFFFF;
+
+}
+
+.nav-left.left-2{
+    width: 15%;
+}
+
+.nav-right.right-2{
+    width: 85%;
+}
+
+.nav-right .clearfix-left-2{
+    margin-top: 9px;
+}
+
+.clearfix-right.clearfix-left-2 li{
+    padding-top: 4px;
+    padding-right: 20px;
+    margin-bottom: 4px;
+    margin-right: 20px;
+    background-color: #FFFFFF;
+
+}
+
+.up-nav.nav-2{
+    background-color: #FFFFFF;
+}
+
+.nav-container.down-nav-bar{
+    background-color: #FFFFFF;
+}
+
+/* end down nav */
+
 
 
 /* utility tag */
