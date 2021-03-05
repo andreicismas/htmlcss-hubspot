@@ -22,7 +22,7 @@ body{
 .nav-container,
 .main-container{
     margin: auto;
-    width: 80%;
+    width: 90%;
 }
 
 .nav-container ul{
@@ -80,7 +80,7 @@ a{
     padding-left:0px;
 }
 
-.get-hub.button{
+.get-hub.button,.text-button{
     padding: 6px;
     margin: 6px;
     border-radius: 5px;
@@ -161,19 +161,37 @@ a{
     background-color: #AFEBE4;
 }
 
-.main-container{
-    
-   
-}
 
-.title-over-img{
+
+.main-parth-one .title-over-img{
+  color: #33475B;
+  width: 37%;
+  position: relative;
   
 }
 
-.main-parth-one{
-   
-
+.title-over-img>*{
+    margin-top: 25px;
 }
+
+.title-over-img>h3{
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.title-over-img>p{
+    font-size: 11px;
+}
+
+.title-over-img .text-button{
+    margin-left: 0;
+}
+
+/* end section main */
+
+/* section main two */
+
+
 
 /* utility tag */
 
