@@ -5,14 +5,11 @@
 }
 
 
-body{
-    width: 1200px;
-    margin: auto;
-}
-
 .max-container,
 .main-max-container,
-.main-max-container-two{
+.main-max-container-two,
+.wrapper-collumn,
+.mane-max-container-three{
     width:100%;
     margin: auto;
     background-color:  #F4F9FD;
@@ -23,7 +20,7 @@ body{
 .main-container,
 .main-container-two{
     margin: auto;
-    width: 80%;
+    width: 70%;
 }
 
 .nav-container ul{
@@ -151,24 +148,27 @@ a{
 
 
 .main-max-container{
-    height: 400px;
+    
+    height: 600px;
     background-image: url(img/jumbotron.png);
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
 }
 
 .main-max-container-2{
     height: 50px;
     background-color: #AFEBE4;
 }
-
-
+.main-parth-one{
+    position: relative;
+}
 
 .main-parth-one .title-over-img{
-  color: #33475B;
-  width: 37%;
-  position: relative;
+    color: #33475B;
+    width: 36%;
+    position: absolute;
+    top: 130px;
   
 }
 
@@ -195,7 +195,7 @@ a{
 
 
 .main-container-two{
-    height: 900px;
+    
     margin: auto;
 }
 
@@ -244,14 +244,226 @@ a{
     background-color: white;
 }
 
-.now-3
+.row-4-left{
+    float: left;
+    width: 30%;
+    padding: 45px;
+}
+
+
+.row-4-right{
+    float: right;
+    width: 70%;
+    /* margin-top: ; */
+}
+
+.part-two-col::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.wrapper-img-left >img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: block;
+    margin-top: 25px;
+}
+
+.wrapper-but > input{
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 120px;
+    padding: 13px;
+    background-color:#FE775A ;
+    border-radius: 5px;
+}
+
+.text-row-4-right{
+    width: 600px;
+    height: 220px;
+    margin: auto;
+    display: block;
+    margin: 31px;
+   
+}
+
+.text-row-4-right{
+    padding:25px;
+    background-color: white;
+    font-size: 15px;
+    color: #33475B;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.text-row-4-right>*{
+
+    margin-left: -20px;
+    padding: 10px;
+} 
+
+.text-row-4-right>p{
+    font-size: 12px;
+}
+
+.row-closer{
+    padding-top: 0px;
+}
+
+span{
+    margin-right: 20px;
+}
+
+.wrapper-line{
+    position: relative;
+}
+
+.line{
+    margin-top: 6px;
+    height: 20px;
+    width: 300px;
+    display: inline-block;
+    position: absolute;
+    left: 250px;
+}
+
+
+.collumn-left,.collumn-right,.collumn-middle{
+    display: inline-block;
+    width: 30%;
+}
+
+.collumn{
+    float: left;
+}
+
+.wrapper-collumn::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.collumn-middle,.collumn-right{
+    margin-left: 48px;
+}
+
+.content-collumn{
+    width: 90%;
+    height:550%;
+    margin: 13px;
+}
+
+.content-collumn>*{
+    width: 100%;
+    
+    
+}
+
+.collumn-img{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+.collumn-text>h3{
+   padding: 15px;
+} 
+
+.collumn-text{
+    color: #33475B;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    height:30% ;
+}
+
+.collumn-text p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 38px;
+    line-height: 1.6;
+}
+
+h5{
+    color: #33475B;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.collumn-but{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #33475B;
+    font-size: 13px;
+    line-height: 1.2;
+    height: 30%;
+}
+
+.collumn-left.collumn.border {
+    background-color: white;
+}
+
+.collumn-left:nth-last-child(-n+2){
+    margin-left: 48px;
+}
+
+.content-collumn .wrapper-but{
+    margin-top: 50px;
+}
 
 
 
 
+.mane-max-container-three{
+    background-color:#00A9B8 ;
+}
 
+.row-blue .wrapper-text{
+    text-align: center;
+}
+
+
+.wrapper-text:nth-last-child(-n+2){
+    font-size: 18px;
+    color: white;
+    line-height: 1.8;
+
+}
+
+.wrapper-row-cell{
+    height: 300px;
+
+}
+
+.wrapper-text h3{
+    color: white;
+    line-height: 2;
+    font-size: 26px;
+}
+
+.row-cell{
+    width: 25%;
+    height: 150px;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+
+}
 /* utility tag */
 
+.border-radius-5px{
+    border-radius: 5px;
+}
+ 
+.h-500{
+    height: 500px;
+}
 .border{
     border: 1px solid black;
 }
