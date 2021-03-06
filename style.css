@@ -473,13 +473,8 @@ h5{
     transform: translate(-50%, -50%);
 }
 
-.img-row-cell-1{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_agency.svg);
-    background-repeat: no-repeat;
 
-}
+
 
 .numbers-row-cell-1 .number,
 .numbers-row-cell-2 .number,
@@ -498,7 +493,7 @@ h5{
 }
 
 .row-cell:nth-child(-1n+4){
- border-bottom: solid 1px white;
+    border-bottom: solid 1px white;
 } 
 
 .row-cell:nth-child(2),
@@ -508,7 +503,7 @@ h5{
 .row-cell:nth-child(7),
 .row-cell:nth-child(8){
     border-left: solid 1px white;
-
+    
 }
 
 .text-row-cell-1 .text-cell,
@@ -527,56 +522,68 @@ h5{
     line-height: 1.9;
 }
 
-
-
-.img-row-cell-2{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_blog.svg);
-    background-repeat: no-repeat;
-}
-
-.img-row-cell-3{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_academy.svg);
-    background-repeat: no-repeat;
-}
-
-.img-row-cell-4{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_inbound.svg);
-    background-repeat: no-repeat;
-}
-
-.img-row-cell-5{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_connect.svg);
-    background-repeat: no-repeat;
-}
-
-.img-row-cell-6{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_globe.svg);
-    background-repeat: no-repeat;
-}
-
-.img-row-cell-7{
-    background-position: center;
-    height: 45px;
-    background-image: url(img/homepage_community_followers.svg);
-    background-repeat: no-repeat;
-}
-
+.img-row-cell-1,
+.img-row-cell-2,
+.img-row-cell-3,
+.img-row-cell-4,
+.img-row-cell-5,
+.img-row-cell-6,
+.img-row-cell-7,
 .img-row-cell-8{
     background-position: center;
     height: 45px;
-    background-image: url(img/growthhub-white-small-1.svg);
     background-repeat: no-repeat;
+
 }
+
+
+.img-row-cell-1{
+     background-image: url(img/homepage_community_agency.svg);
+
+}
+
+.img-row-cell-2{
+    background-image: url(img/homepage_community_blog.svg);
+
+}
+
+
+.img-row-cell-3{
+    background-image: url(img/homepage_community_academy.svg);
+
+}
+
+
+.img-row-cell-4{
+    background-image: url(img/homepage_community_inbound.svg);
+
+}
+
+
+.img-row-cell-5{
+    background-image: url(img/homepage_community_connect.svg);
+
+}
+
+
+.img-row-cell-6{
+    background-image: url(img/homepage_community_globe.svg);
+
+}
+
+
+
+.img-row-cell-7{
+    background-image: url(img/homepage_community_followers.svg);
+
+}
+
+
+.img-row-cell-8{
+    background-image: url(img/growthhub-white-small-1.svg);
+
+}
+
 
 
 /* utility tag */
