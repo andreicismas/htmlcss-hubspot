@@ -9,7 +9,8 @@
 .main-max-container,
 .main-max-container-two,
 .wrapper-collumn,
-.mane-max-container-three{
+.main-max-container-three,
+.main-max-container-end{
     width:100%;
     margin: auto;
     background-color:  #F4F9FD;
@@ -18,7 +19,8 @@
 
 .nav-container,
 .main-container,
-.main-container-two{
+.main-container-two,
+.main-container-end{
     margin: auto;
     width: 70%;
 }
@@ -182,7 +184,7 @@ a{
 }
 
 .title-over-img>p{
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .title-over-img .text-button{
@@ -425,7 +427,8 @@ h5{
 
 
 
-.mane-max-container-three{
+.main-max-container-three{
+    padding-bottom: 50px;
     background-color:#00A9B8 ;
 }
 
@@ -584,8 +587,75 @@ h5{
 
 }
 
+.row-subaru,
+.row-woman{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;   
+}
+
+.row-subaru::after,
+.row-woman::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row-woman{
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.text-subaru{
+    width: 35%;
+    height: 100%;
+    float: left;
+    padding: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:  #33475B;
+}   
 
 
+.text-subaru>p{
+    line-height: 2;
+}
+
+.text-subaru>h1{
+    font-size: 40px;
+}
+.logo-subaru{
+    width:65%;
+    height: 100%;
+    float: right;
+}
+
+.wrapper-img-subaru{
+    width: 164px;
+    padding: 15px;
+    height: 70px;
+    margin-top: 35px;
+    margin-left: 30px;
+    display: inline-block;
+}
+
+
+.wrapper-img-subaru>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.row-woman .title-over-img{
+    color: #33475B;
+    width: 34%;
+    position: absolute;
+    top: 30px;
+
+}
+
+.img-wrapper.woman{
+    
+}
 /* utility tag */
 
 .border-radius-5px{
@@ -593,7 +663,7 @@ h5{
 }
  
 .h-500{
-    height: 500px;
+    height: 900px;
 }
 .border{
     border: 1px solid black;
