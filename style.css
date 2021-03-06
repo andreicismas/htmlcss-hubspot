@@ -241,6 +241,11 @@ a{
 }
 
 .part-two-col.row-2{
+    margin-bottom: 40px;
+}
+
+
+.part-two-col.row-2{
     background-color: white;
 }
 
@@ -282,7 +287,7 @@ a{
 }
 
 .text-row-4-right{
-    width: 600px;
+   
     height: 220px;
     margin: auto;
     display: block;
@@ -322,7 +327,7 @@ span{
 .line{
     margin-top: 6px;
     height: 20px;
-    width: 300px;
+    width: 100vh;
     display: inline-block;
     position: absolute;
     left: 250px;
@@ -430,14 +435,16 @@ h5{
 
 
 .wrapper-text:nth-last-child(-n+2){
-    font-size: 18px;
+    font-size: 15px;
     color: white;
     line-height: 1.8;
-
+    margin-bottom: 15px;
 }
 
-.wrapper-row-cell{
-    height: 300px;
+.wrapper-row-cell::after{
+   content: "";
+   display: table;
+   clear: both;
 
 }
 
@@ -445,16 +452,133 @@ h5{
     color: white;
     line-height: 2;
     font-size: 26px;
+    
 }
 
 .row-cell{
     width: 25%;
-    height: 150px;
+    height: 200px;
     margin: auto;
     display: block;
-    margin-top: 5px;
+    float: left;
+    position: relative;
+}
+
+.content-row-cell{
+    width:60%;
+    height: 90%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-row-cell-1{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_agency.svg);
+    background-repeat: no-repeat;
 
 }
+
+.numbers-row-cell-1 .number,
+.numbers-row-cell-2 .number,
+.numbers-row-cell-3 .number,
+.numbers-row-cell-4 .number,
+.numbers-row-cell-5 .number,
+.numbers-row-cell-6 .number,
+.numbers-row-cell-7 .number,
+.numbers-row-cell-8 .number{
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.row-cell:nth-child(-1n+4){
+ border-bottom: solid 1px white;
+} 
+
+.row-cell:nth-child(2),
+.row-cell:nth-child(3),
+.row-cell:nth-child(4),
+.row-cell:nth-child(6),
+.row-cell:nth-child(7),
+.row-cell:nth-child(8){
+    border-left: solid 1px white;
+
+}
+
+.text-row-cell-1 .text-cell,
+.text-row-cell-2 .text-cell,
+.text-row-cell-3 .text-cell,
+.text-row-cell-4 .text-cell,
+.text-row-cell-5 .text-cell,
+.text-row-cell-6 .text-cell,
+.text-row-cell-7 .text-cell,
+.text-row-cell-8 .text-cell{
+    font-size: 12px;
+    color: white;
+    font-weight: 600;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 1.9;
+}
+
+
+
+.img-row-cell-2{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_blog.svg);
+    background-repeat: no-repeat;
+}
+
+.img-row-cell-3{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_academy.svg);
+    background-repeat: no-repeat;
+}
+
+.img-row-cell-4{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_inbound.svg);
+    background-repeat: no-repeat;
+}
+
+.img-row-cell-5{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_connect.svg);
+    background-repeat: no-repeat;
+}
+
+.img-row-cell-6{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_globe.svg);
+    background-repeat: no-repeat;
+}
+
+.img-row-cell-7{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/homepage_community_followers.svg);
+    background-repeat: no-repeat;
+}
+
+.img-row-cell-8{
+    background-position: center;
+    height: 45px;
+    background-image: url(img/growthhub-white-small-1.svg);
+    background-repeat: no-repeat;
+}
+
+
 /* utility tag */
 
 .border-radius-5px{
