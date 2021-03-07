@@ -759,7 +759,23 @@ h5{
     color: white;
 }
 
+.wrapper-socia::after{
+    display: table;
+    content: "";
+    clear: both;
+}
 
+
+.wrapper-social-img>*{
+    float: left;
+    display: inline;
+    width: 19%;
+    height: 30px;
+    padding: 7px;
+    object-fit: contain;
+
+    margin-bottom: 80px;
+}
 
 
 /* utility tag */
