@@ -218,9 +218,7 @@ li>a{
     
 .img-wrapper {
     width: 35%;
-    /* margin: auto; */
-    /* display: block; */
-
+ 
 }
 
 
@@ -267,7 +265,6 @@ li>a{
 .row-4-right{
     float: right;
     width: 70%;
-    /* margin-top: ; */
 }
 
 .part-two-col::after{
@@ -368,12 +365,6 @@ span{
     width: 90%;
     height:550%;
     margin: 13px;
-}
-
-.content-collumn>*{
-    /* width: 100%; */
-    
-    
 }
 
 .collumn-img{
@@ -693,13 +684,13 @@ h5{
     float: left;
     width: 20%;
     margin-left: 40px;
- margin-left: 40px;
+    margin-left: 4%;
 }
 
 
 .collumn-footer>h2{
     line-height: 2;
-    font-size: 19px;
+    font-size: 100%;
     color: white;
     display: block; 
 }
@@ -713,7 +704,7 @@ h5{
 
 .wrapper-but-footer .but-footer{
     line-height: 3;
-    font-size: 14px;
+    font-size: 80%;
     padding: 10px;
     border-radius: 5px;
     background-color: white;
@@ -756,14 +747,12 @@ h5{
 }
 
 .legal{
-    
     font-family: 'Source Sans Pro', sans-serif;
     color: white;
     text-decoration: none;
     padding-left: 15px;
-    display: inline-block;
-    float: right;
-
+    /* display: inline-block; */
+     float: right;
 }
 
 .copyright{
