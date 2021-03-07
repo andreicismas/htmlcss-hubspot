@@ -8,19 +8,23 @@
 .max-container,
 .main-max-container,
 .main-max-container-two,
-.wrapper-collumn,
 .main-max-container-three,
-.main-max-container-end{
-    width:100%;
+.main-max-container-end,
+.footer-max-comtainer{
+    width:100vw;
     margin: auto;
     background-color:  #F4F9FD;
+}
 
+.wrapper-collumn{
+    width: 100%;
 }
 
 .nav-container,
 .main-container,
 .main-container-two,
-.main-container-end{
+.main-container-end,
+.footer-container{
     margin: auto;
     width: 70%;
 }
@@ -29,7 +33,7 @@
     list-style: none;
 }
 
-a{
+li>a{
     color: #32495B;
     text-decoration: none;
 }
@@ -611,9 +615,9 @@ h5{
     width: 35%;
     height: 100%;
     float: left;
-    padding: 80px;
+    padding: 61px;
     font-family: 'Source Sans Pro', sans-serif;
-    color:  #33475B;
+    color: #33475B;
 }   
 
 
@@ -625,10 +629,10 @@ h5{
     font-size: 40px;
 }
 .logo-subaru{
-    padding: 35px;
+    padding: 26px;
     width: 65%;
     float: right;
-   margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .wrapper-img-subaru{
@@ -666,6 +670,102 @@ h5{
     float: right;
     object-fit: cover;
 }
+
+/* end main */
+
+
+/* start .footer-container */
+
+
+.footer-max-comtainer{
+    background-color: #32495B;
+}
+
+.footer-row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.collumn-footer{
+    float: left;
+    width: 20%;
+    margin-left: 40px;
+}
+.collumn-footer>h2{
+    line-height: 2;
+    font-size: 19px;
+    color: white;
+    display: block; 
+}
+.collumn-footer>a{ 
+    line-height: 2;
+    font-size: 14px;
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+
+.wrapper-but-footer .but-footer{
+    line-height: 3;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.wrapper-lang{
+    line-height:3;
+    text-align: center;
+    
+}
+
+.lang-footer{
+    padding-left: 40px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo-footer::after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.logo-footer .logo-left{
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    margin-top: 12px;
+
+}
+
+.logo-footer .text-right{
+    float: right; 
+    
+}
+
+.legal{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    display: inline-block;
+    float: right;
+
+}
+
+.copyright{
+    color: white;
+}
+
+
 
 
 /* utility tag */
