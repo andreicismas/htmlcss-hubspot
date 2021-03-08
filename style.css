@@ -11,7 +11,7 @@
 .main-max-container-three,
 .main-max-container-end,
 .footer-max-comtainer{
-    width:98.8vw;
+    
     margin: auto;
     background-color:  #F4F9FD;
 }
@@ -150,8 +150,7 @@ li>a{
 
 
 .main-max-container{
-    
-    padding-bottom: 700px;
+    height: 700px;
     background-image: url(img/jumbotron.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -172,8 +171,7 @@ li>a{
 .main-parth-one .title-over-img{
     color: #33475B;
     width: 36%;
-    position: absolute;
-    top: 130px;
+    margin-top: 12%;
   
 }
 
@@ -311,10 +309,14 @@ li>a{
     font-family: 'Source Sans Pro', sans-serif;
 }
 .text-row-4-right>*{
-
+    
     margin-left: -20px;
     padding: 10px;
 } 
+/* .check-mark>*{
+    padding-right: 30px;
+    display: inline-block;
+} */
 
 .text-row-4-right>p{
     font-size: 12px;
@@ -410,9 +412,30 @@ h5{
     font-family: 'Source Sans Pro', sans-serif;
     color: #33475B;
     font-size: 13px;
-    line-height: 1.2;
+}
+
+.check-text-row-4-right>*{
+    padding-bottom: 3px;
+}
+
+.wrapper-check,.check-text-row-4-right{
+    display: inline-block;
+    padding-right: px;
+}
+
+
+
+.check,.check-text-row-4-right>p{
+    width: 17px;
+    height: 17px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #FE775A;
+    color: white;
+    padding-left: 3px;
    
 }
+
 
 .collumn-left.collumn.border {
     background-color: white;
@@ -778,19 +801,9 @@ h5{
     margin-bottom: 80px;
 }
 
-.check-mark{
-    border-radius: 50%;
-    background-color: #FE775A;
-    color: white;
-    font-size: smaller;
-    padding-right: 2px;
-    padding-left: 2px;
-}    
-
-
 /* utility tag */
 
-/* .border-radius-5px{
+.border-radius-5px{
     border-radius: 5px;
 }
  
@@ -799,5 +812,8 @@ h5{
 }
 .border{
     border: 1px solid black;
-} */
+} 
+
+
+
 
