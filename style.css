@@ -51,7 +51,6 @@ li>a{
     
 }
 
-
 .up-nav::after,
 .nav-left::after,
 .nav-right::after{
@@ -333,21 +332,11 @@ span{
     position: relative;
 }
 
-.line{
-    /* margin-top: 6px;
-    height: 20px;
-    width: 50%;
-    display: inline-block;
-    position: absolute;
-    left: 250px; */
-    
+.line{ 
     margin-top: 6px;
-    /* height: 20px; */
     width: 40%;
     display: inline-block;
     position: absolute;
-    /* position: relative; */
-    /* bottom: 5px; */
     left: 34%;
 }
 
@@ -765,7 +754,6 @@ h5{
     color: white;
     text-decoration: none;
     padding-left: 15px;
-    /* display: inline-block; */
      float: right;
 }
 
@@ -785,7 +773,6 @@ h5{
     display: inline;
     width: 19%;
     height: 30px;
-    /* padding: 7px; */
     margin-top: 5px;
     object-fit: contain;
     margin-bottom: 80px;
