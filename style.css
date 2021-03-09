@@ -7,7 +7,7 @@
 
 .max-container,
 .main-max-container,
-.main-max-container-two,
+.wrapper-max-container-two,
 .main-max-container-three,
 .main-max-container-end,
 .footer-max-comtainer{
@@ -65,8 +65,8 @@ li>a{
 }
 
 .up-nav::after,
-.nav-left::after,
-.nav-right::after{
+.clearfix-left::after,
+.clearfix-right::after{
     content: "";
     display: table;
     clear: both;
