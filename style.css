@@ -16,6 +16,9 @@
     background-color:  #F4F9FD;
 }
 
+.max-container.max-container-2.border {
+    background-color: white;
+}
 
 .nav-container,
 .main-container,
@@ -104,7 +107,7 @@ li>a{
 /* start down-nav */
 
 .clearfix-left .img-nav-bar{
-    padding: 7.44px;
+    padding: 7px;
     padding-left: 0%;
     background-color: #FFFFFF;
     
@@ -164,28 +167,23 @@ li>a{
     margin-top: 0px;
     background-color: #AFEBE4;
 }
-.main-parth-one{
-    position: relative;
-}
+
 
 .main-parth-one .title-over-img{
+    padding-top: 15%;
     color: #33475B;
     width: 36%;
-    margin-top: 12%;
-  
+   
 }
 
-.title-over-img>*{
-    margin-top: 25px;
-}
 
 .title-over-img>h3{
     font-size: 35px;
-    margin-top: 25px;
 }
 
 .title-over-img>p{
     font-size: 13px;
+    padding-top: 25px;
 }
 
 .title-over-img .text-button{
