@@ -346,7 +346,7 @@ span{
 
 .line{ 
     margin-top: 6px;
-    width: 40%;
+    width: 60%;
     display: inline-block;
     position: absolute;
     left: 34%;
@@ -377,8 +377,8 @@ span{
 
 .content-collumn{
     width: 90%;
-    height:550%;
-    margin: 13px;
+    padding: 14px;
+    margin: 15px;
 }
 
 .collumn-img{
@@ -529,9 +529,9 @@ h5{
     line-height: 1.9;
 }
 
-.row-cell:nth-child(-1n+4){
-    border-bottom: solid 1px white;
-} 
+.wrapper-row-cell.border{
+    border-bottom: 1px solid white;
+}
 
 .row-cell:nth-child(2),
 .row-cell:nth-child(3),
