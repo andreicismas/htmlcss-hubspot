@@ -32,8 +32,8 @@
 }   
 
 .nav-container,
-.main-container,
-.main-container-two,
+.wrapper-container,
+.wrapper-container-two,
 .main-container-end,
 .footer-container{
     margin: auto;
@@ -209,7 +209,7 @@ li>a{
 /* start section main two */
 
 
-.main-container-two{
+.wrapper-container-two{
     
     margin: auto;
 }
@@ -327,10 +327,7 @@ li>a{
     margin-left: -20px;
     padding: 10px;
 } 
-/* .check-mark>*{
-    padding-right: 30px;
-    display: inline-block;
-} */
+
 
 .text-row-4-right>p{
     font-size: 12px;
