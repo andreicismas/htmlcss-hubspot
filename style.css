@@ -16,9 +16,20 @@
     background-color:  #F4F9FD;
 }
 
+.main-max-container-two.border {
+    /* margin: auto; */
+    padding-bottom: 40px;
+    background-color: #F4F9FD;
+}    
+
 .max-container.max-container-2.border {
     background-color: white;
 }
+
+.main-max-container-end.border {
+    background-color: white;
+    
+}   
 
 .nav-container,
 .main-container,
@@ -153,37 +164,40 @@ li>a{
 
 
 .main-max-container{
-    height: 700px;
+    height: 820px;
     background-image: url(img/jumbotron.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
 }
 
 
 
 .main-max-container-2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding: 25px;
-    margin-top: 0px;
     background-color: #AFEBE4;
 }
 
 
 .main-parth-one .title-over-img{
-    padding-top: 15%;
+    padding-top: 5%;
     color: #33475B;
-    width: 36%;
+    width:60%;
    
 }
 
 
 .title-over-img>h3{
-    font-size: 35px;
+    font-size: 60px;
 }
 
 .title-over-img>p{
-    font-size: 13px;
-    padding-top: 25px;
+    line-height: 2;
+    font-size: 18px;
+    padding-top: 34px;
+    padding-bottom: 20px;
 }
 
 .title-over-img .text-button{
@@ -247,7 +261,9 @@ li>a{
 
 .part-two-col.row-2{
     margin-bottom: 40px;
+    margin-top: 40px;
 }
+
 
 
 .part-two-col.row-2{
@@ -414,6 +430,7 @@ h5{
 
 .check-text-row-4-right>*{
     padding-bottom: 3px;
+    padding-left: 12px;
 }
 
 .wrapper-check,.check-text-row-4-right{
@@ -424,19 +441,21 @@ h5{
 
 
 .check,.check-text-row-4-right>p{
-    width: 17px;
-    height: 17px;
+    width: 15px;
+    height: 15px;
     display: inline-block;
     border-radius: 50%;
     background-color: #FE775A;
     color: white;
     padding-left: 3px;
-   
+    font-size: 12px;
+    margin-bottom: 3px;
 }
 
 
 .collumn-left.collumn.border {
     background-color: white;
+    border-radius: 5px;
 }
 
 
@@ -788,6 +807,10 @@ h5{
     clear: both;
 }
 
+.wrapper-socia{
+    margin-left: -8px;
+
+}
 
 .wrapper-social-img>*{
     float: left;
@@ -797,20 +820,9 @@ h5{
     margin-top: 5px;
     object-fit: contain;
     margin-bottom: 80px;
+    padding-right: 20px;
 }
 
-/* utility tag */
-
-/* .border-radius-5px{
-    border-radius: 5px;
-}
- 
-.h-500{
-    height: 900px;
-}
-.border{
-    border: 1px solid black;
-}   */
 
 
 
