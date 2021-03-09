@@ -628,7 +628,6 @@ h5{
 .row-subaru,
 .row-woman{
     width: 100%;
-    margin: auto;
     margin-top: 30px;   
 }
 
@@ -638,12 +637,6 @@ h5{
     display: table;
     clear: both;
 }
-
-.row-woman{
-    margin-bottom: 40px;
-    position: relative;
-}
-
 
 .text-subaru{
     width: 35%;
@@ -684,11 +677,14 @@ h5{
     object-fit: contain;
 }
 
-.row-woman .title-over-img{
+.title-over-img{
     color: #33475B;
     width: 45%;
     float: left;
 }
+
+
+
 .img-wrapper.woman .img-woman{
     margin-top: 29px;
     height: 90%;
@@ -706,11 +702,45 @@ h5{
     object-fit: cover;
 }
 
+.row-contain.border {
+    padding-bottom: 40px;
+}
+
+.aside-woman>h3{
+    color: #33475B;
+    font-size: 28px;
+}
+
+.main-parth-one .aside-woman{
+    padding-top: 5%;
+    color: #33475B;
+    width:60%;
+   
+}
+
+.aside-woman .text-button{
+    margin-left: 0;
+}
+
+.aside-woman>p{
+    color: #33475B;
+    line-height: 1.4;
+    font-size: 13px;
+    padding-top: 28px;
+    padding-bottom: 20px;
+}
+
+.aside-woman{
+    color: #33475B;
+    width: 40%;
+    float: left;
+}
+
+
 /* end main */
 
 
 /* start .footer-container */
-
 
 .footer-max-comtainer{
     background-color: #32495B;
